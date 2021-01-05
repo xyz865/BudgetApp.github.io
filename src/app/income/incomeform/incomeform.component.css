@@ -1,0 +1,14 @@
+form input {
+	width: 250px;
+	border: none;
+	background: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 3px solid green;
+	outline: none;
+	height: 35px;
+}
+
+form button {
+	margin-top: 25px;
+}

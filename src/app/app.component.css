@@ -1,0 +1,14 @@
+.container {
+	width: 1000px;
+	height: 700px;
+	background: #34495E;
+	display: flex;
+}
+
+.income {
+	margin: 50px;
+}
+
+.expense {
+	margin: 50px;
+}

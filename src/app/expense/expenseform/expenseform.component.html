@@ -1,0 +1,20 @@
+<form
+ #form="ngForm"
+ (ngSubmit)="onSubmit(form)"
+ autocomplete="off"
+>
+	<input 
+	 placeholder="Expense" 
+	 name="expense"
+     [(ngModel)]="expense"
+	>
+	<br/>
+	<input 
+	 type="number" 
+	 placeholder="Amount" 
+	 name="expenseAmount"
+     [(ngModel)]="expenseAmount"
+	>
+	<br/>
+	<button class="btn btn-danger" >Add Transaction</button>
+</form>

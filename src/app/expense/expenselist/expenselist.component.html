@@ -1,0 +1,7 @@
+<div *ngFor="let i of expenseArray"
+ class="items"
+>
+	{{i.expense}}
+	{{i.expenseAmount}}
+	<button (click)="delete(i.id)" >X</button>
+</div>
